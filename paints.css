@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.mainframe{
+    width: 500px;
+    background: #ece0e0;
+    border-radius: 12px;
+    padding: 30px 40px;
+}
+
+.mainframe h1{
+    font-size: 36px;
+    text-align: center;
+}
+
+.mainframe .inputbox{
+    position: relative;
+    width: 100%;
+    height: 50px;
+    margin: 30px 0;
+    color: #6a5acd;
+}
+
+.inputbox input{
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: 2px solid rgb(255, 255, 255);
+    outline: none;
+    border-radius: 40px;
+    padding: 20px 35px 20px 15px;
+    font-size: 16px;
+}
+
+.inputbox input::placeholder{
+    font-size: 16px;
+}
+
+.inputbox i{
+    position: absolute;
+    top: 30%;
+    right: 5px;
+    transform: translate(-50%);
+    font-size: 20px;
+}
+
+.remember-forgot{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: -15px 0 15px;
+    font-size: 15.5px;
+}
+
+.remember-forgot label input{
+    accent-color: #ff004f;
+    width: 20px;
+    height: 20px;
+    margin-right: 3px;
+}
+
+.remember-forgot a{
+    text-decoration: none;
+}
+
+.remember-forgot a:hover{
+    text-decoration: underline;
+}
+
+.mainframe button{
+    background: #ff004f;
+    width: 100%;
+    padding: 10px 0;
+    margin-top: 15px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    font-size: 16px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .4);
+}
+
+.mainframe .registerbox{
+    font-size: 15.5px;
+    text-align: center;
+    margin: 20px 0 15px;
+}
+
+.mainframe .registerbox p a{
+    text-decoration: none;
+}
+
+.mainframe .registerbox p a:hover{
+    text-decoration: underline;
+}
+
+#signup{
+    display: none;
+}
